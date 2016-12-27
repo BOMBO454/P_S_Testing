@@ -1,0 +1,143 @@
+
+h1 {
+	display: block;
+	float: left;
+	margin-left: 37px;
+	margin-top: 22px;
+	margin-bottom: 37px;
+	font-size: 48px;
+	font-family:roboto-light-webfont;
+	letter-spacing:1.44px;
+	width:320px;
+}
+article > div {
+	padding: 30px 40px;
+	border-top:1px solid #e1e3e6;
+	position: relative;
+	font-family: roboto-light-webfont;
+	height: 354px;
+	clear: both;
+}
+article > div::after,
+article > div::before{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+article > div > img {
+	float: left;
+}
+
+article > div p {
+	margin-left: 313px;
+	font-size: 16px;
+	line-height: 25px;
+	letter-spacing: 0.48px;
+	word-spacing: 0.25px;
+}
+
+article > div > h3 {
+	margin-left: 314px;
+	margin-top: 0px;
+	margin-bottom: 23px;
+	font-size: 20px;
+	line-height: 13px;
+}
+
+article > div > div {
+	float: left;
+	width:200px;
+	padding-left: 30px;
+	padding-top: 9px;
+	font-size: 13px;
+	font-family:roboto-regular-webfont;
+	line-height: 18px;
+	margin-right: 20px;
+	height: 84px;
+	color: #84898f;
+}
+
+article > div > div > span{
+	display: block;
+	font-family:roboto-bold-webfont;
+	font-size: 13px;
+	letter-spacing: 1.35px;
+	text-transform:uppercase;
+	clear: both;
+	padding-bottom: 2px;
+}
+
+.reg {
+	background-color: #01ae67;
+	border-radius: 50px;
+	position: absolute;
+	height: 40px;
+	width:225px;
+	padding:12px 0px;
+	text-align: center;
+	right: 40px;
+	bottom: 66px;
+	color:white;
+	font-family: roboto-bold-webfont;
+	font-size: 13px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.event-2 h3{
+	color:#01ae67;
+}
+
+.listing a {
+	color:#01ae67;
+	margin-right: 0px;
+	margin-left: 16px;
+}
+article div.listing{
+	height: 92px;
+	padding-top: 34px;
+	padding-left: 29px;
+	font-family: roboto-thin-webfont;
+	font-size: 17px;
+}
+
+.date {
+	background-image:url(/events/date.png);
+	background-repeat: no-repeat;
+	background-position: 0px 9px;
+}
+
+.locate {
+	background-image:url(/events/location.png);
+	background-repeat: no-repeat;
+	background-position: 4px 8px;
+}
+
+.documents {
+	background-image:url(/events/doc.png);
+	background-repeat: no-repeat;
+	background-position: 9px 8px;
+}
+
+.listing a.last {
+	margin-right: 17px;
+}
+
+article .averange {
+	font-family: roboto-light-webfont;
+	font-size: 17px;
+	letter-spacing: 0.51px;
+	float: right;
+	width:180px;
+	height: 40px;
+	border: 2px solid #cbced2;
+	border-radius: 5px;
+	clear: none;
+	margin: 34px 0px;
+	margin-right: 40px;
+	padding: 8px 15px;
+	background-image: url(events/cal.png);
+	background-repeat: no-repeat;
+	background-position: 141px 6px;
+}
